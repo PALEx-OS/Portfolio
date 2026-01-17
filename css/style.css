@@ -48,6 +48,8 @@ h1, h2, h3 {
   line-height: 1.2;
 }
 
+/*Colors*/
+
 :root {
   --bg: #ffffff;
   --text: #111111;
@@ -57,4 +59,15 @@ h1, h2, h3 {
 body {
   background: var(--bg);
   color: var(--text);
+}
+
+/*Typography*/
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/*Layout(grid)*/
+section {
+  display: grid;
+  gap: 1.5rem;
 }
