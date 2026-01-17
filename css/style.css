@@ -71,3 +71,9 @@ section {
   display: grid;
   gap: 1.5rem;
 }
+
+/*Style once:*/
+.project {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
